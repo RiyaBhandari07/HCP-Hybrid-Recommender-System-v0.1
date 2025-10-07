@@ -1,9 +1,10 @@
 # HCP Hybrid Recommender System — v0.1
 
-[![Streamlit](https://img.shields.io/badge/Deployed%20on-Streamlit-brightgreen?logo=streamlit)](https://your-streamlit-app-link)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)]()
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+[![Python 3.10](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow 2.20](https://img.shields.io/badge/TensorFlow-2.20-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Streamlit 1.50](https://img.shields.io/badge/Streamlit-1.50-red?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![spaCy 3.8.7](https://img.shields.io/badge/spaCy-3.8.7-brightgreen?logo=spacy&logoColor=white)](https://spacy.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 📘 Project Overview
 
