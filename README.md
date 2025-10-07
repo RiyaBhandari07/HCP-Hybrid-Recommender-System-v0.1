@@ -1,4 +1,4 @@
-# 🧠 HCP Hybrid Recommender System — v0.1
+# HCP Hybrid Recommender System — v0.1
 
 [![Streamlit](https://img.shields.io/badge/Deployed%20on-Streamlit-brightgreen?logo=streamlit)](https://your-streamlit-app-link)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)]()
