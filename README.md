@@ -167,14 +167,14 @@ The Streamlit-based dashboard provides an interactive interface for exploring mo
 ## Repository Structure
 ```
 📁 HCP_Hybrid_Recommender_System/
-├── data/                       # Synthetic & PubMed datasets
-├── notebooks/                  # Development notebooks
-├── artifacts/                  # Serialized encoders & feature data 
-├── model/                      # Trained LSTM and topic models
-├── dashboard.py                # Streamlit dashboard code 
-├── requirements.txt
-├── LICENSE
-└── README.md
+├── artifacts/              # Serialized encoders & feature data        
+├── data/                   # Synthetic & PubMed datasets
+├── model/                  # Trained Hybrid LSTM+topic model
+├── notebooks/              # Development notebooks
+├── LICENSE                
+├── README.md
+├── dashboard.py            # Streamlit dashboard code
+└── requirements.txt
 ```
 
 ---
