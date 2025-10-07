@@ -73,8 +73,8 @@ TOPIC_COLS = os.path.join(ARTIFACTS_DIR, "topic_cols.json")
 CONFIG = os.path.join(ARTIFACTS_DIR, "config.json")
 
 # CSV data
-SCIENTIFIC_CONTENT_CSV  = os.path.join(BASE_DIR, "scientific_content.csv")
-HCP_INTERACTION_CSV  = os.path.join(BASE_DIR, "hcp_interaction_data.csv")
+SCIENTIFIC_CONTENT_CSV  = os.path.join(ARTIFACTS_DIR, "scientific_content.csv")
+HCP_INTERACTION_CSV  = os.path.join(ARTIFACTS_DIR, "hcp_interaction_data.csv")
 
 @st.cache_data
 def load_data():
