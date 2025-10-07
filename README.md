@@ -6,7 +6,7 @@
 [![spaCy 3.8.7](https://img.shields.io/badge/spaCy-3.8.7-brightgreen?logo=spacy&logoColor=white)](https://spacy.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**[Launch Streamlit Dashboard → HCP Hybrid Recommender System](https://hcp-hybrid-recommender-system-v01-dashboard.streamlit.app/)**  
+**[Launch Streamlit Dashboard → RWE Analytics | Next Best Action Recommender System](https://hcp-hybrid-recommender-system-v01-dashboard.streamlit.app/)**  
 
 ---
 
