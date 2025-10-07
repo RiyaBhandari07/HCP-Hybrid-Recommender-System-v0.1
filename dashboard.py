@@ -57,10 +57,10 @@ st.markdown(
 # 1.  Paths
 # ---------------- Paths ----------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODELS_DIR = os.path.join(BASE_DIR, "model")
+MODEL_DIR = os.path.join(BASE_DIR, "model")
 ARTIFACTS_DIR = os.path.join(BASE_DIR, "artifacts")
 
-MODEL_PATH = os.path.join(MODELS_DIR, "hybrid_lstm_model.keras")
+MODEL_PATH = os.path.join(MODEL_DIR, "hybrid_lstm_model.keras")
 CONTENT_META = os.path.join(ARTIFACTS_DIR, "content_meta.csv")
 CONTENT_PAD = os.path.join(ARTIFACTS_DIR, "content_pad.npy")
 CID2IX = os.path.join(ARTIFACTS_DIR, "content_id_to_ix.pkl")
@@ -73,8 +73,16 @@ TOPIC_COLS = os.path.join(ARTIFACTS_DIR, "topic_cols.json")
 CONFIG = os.path.join(ARTIFACTS_DIR, "config.json")
 
 # CSV data
-scientific_content_df = os.path.join(BASE_DIR, "scientific_content.csv")
-hcp_interaction_df = os.path.join(BASE_DIR, "hcp_interaction_data.csv")
+SCIENTIFIC_CONTENT_CSV  = os.path.join(BASE_DIR, "scientific_content.csv")
+HCP_INTERACTION_CSV  = os.path.join(BASE_DIR, "hcp_interaction_data.csv")
+
+@st.cache_data
+def load_data():
+    scientific_content_df = SCIENTIFIC_CONTENT_CSV
+    hcp_interaction_df = HCP_INTERACTION_CSV
+    return scientific_content_df, hcp_interaction_df
+
+scientific_content_df, hcp_interaction_df = load_data()
 
 # ---------------- Load Artifacts ----------------
 @st.cache_resource
