@@ -13,6 +13,14 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
 import plotly.express as px
+import spacy
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    import spacy.cli
+    spacy.cli.download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 # ---------------- Page Config ---------------------
 st.set_page_config(page_title="HCP Content Recommender", layout="wide")
