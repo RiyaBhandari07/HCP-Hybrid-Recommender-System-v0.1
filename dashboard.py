@@ -73,8 +73,8 @@ TOPIC_COLS = os.path.join(ARTIFACTS_DIR, "topic_cols.json")
 CONFIG = os.path.join(ARTIFACTS_DIR, "config.json")
 
 # CSV data
-SCIENTIFIC_CONTENT_CSV = os.path.join(BASE_DIR, "scientific_content.csv")
-HCP_INTERACTION_CSV = os.path.join(BASE_DIR, "hcp_interaction_data.csv")
+scientific_content_df = os.path.join(BASE_DIR, "scientific_content.csv")
+hcp_interaction_df = os.path.join(BASE_DIR, "hcp_interaction_data.csv")
 
 # ---------------- Load Artifacts ----------------
 @st.cache_resource
