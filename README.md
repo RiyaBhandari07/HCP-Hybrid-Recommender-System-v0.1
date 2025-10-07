@@ -1,6 +1,6 @@
 # HCP Hybrid Recommender System — v0.1
 
-[![Python 3.11](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow 2.20](https://img.shields.io/badge/TensorFlow-2.20-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Streamlit 1.50](https://img.shields.io/badge/Streamlit-1.50-red?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![spaCy 3.8.7](https://img.shields.io/badge/spaCy-3.8.7-brightgreen?logo=spacy&logoColor=white)](https://spacy.io/)
@@ -83,10 +83,10 @@ The resulting topic embeddings represent the **semantic context** of scientific 
 
 ### 2. Synthetic Real-World Data  
 To simulate pharmaceutical engagement data, synthetic datasets were created for:
-- [`hcp_master.csv`](#data/hcp_master.csv): HCP demographics, specialty, and prescribing behavior  
-- [`patients_with_hcp.csv`](#data/patients_with_hcp.csv): Patient–HCP linkages  
-- [`campaigns_with_content.csv`](#campaigns_with_content.csv): Content metadata and delivery channels  
-- [`hcp_interaction_data.csv`](#data/hcp_interaction_data.csv): Engagement histories used for model training  
+- [`hcp_master.csv`](data/hcp_master.csv): HCP demographics, specialty, and prescribing behavior  
+- [`patients_with_hcp.csv`](data/patients_with_hcp.csv): Patient–HCP linkages  
+- [`campaigns_with_content.csv`](data/campaigns_with_content.csv): Content metadata and delivery channels  
+- [`hcp_interaction_data.csv`](data/hcp_interaction_data.csv): Engagement histories used for model training  
 
 These synthetic datasets replicate the **multi-dimensional nature of Real-World Evidence (RWE)** used in healthcare analytics.
 
