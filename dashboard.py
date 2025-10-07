@@ -54,20 +54,11 @@ st.markdown(
 )
 
 # -------------------------------
-# 1. Load CSV Data
-# -------------------------------
-@st.cache_data
-def load_data():
-    scientific_content_df = pd.read_csv("C:/Users/bhand/Desktop/Data Science - My Collection/Deep Learning Project - 1/Data/Data for Recommender System/HCP_Hybrid_Recommendation_System/artifacts/scientific_content.csv")
-    hcp_interaction_df = pd.read_csv("C:/Users/bhand/Desktop/Data Science - My Collection/Deep Learning Project - 1/Data/Data for Recommender System/HCP_Hybrid_Recommendation_System/artifacts/hcp_interaction_data.csv")
-    return scientific_content_df, hcp_interaction_df
-
-scientific_content_df, hcp_interaction_df = load_data()
-
-# Paths
+# 1.  Paths
 # ---------------- Paths ----------------
-MODELS_DIR = "models"
-ARTIFACTS_DIR = "artifacts"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODELS_DIR = os.path.join(BASE_DIR, "model")
+ARTIFACTS_DIR = os.path.join(BASE_DIR, "artifacts")
 
 MODEL_PATH = os.path.join(MODELS_DIR, "hybrid_lstm_model.keras")
 CONTENT_META = os.path.join(ARTIFACTS_DIR, "content_meta.csv")
@@ -81,6 +72,9 @@ HCP_LIST = os.path.join(ARTIFACTS_DIR, "hcp_list.json")
 TOPIC_COLS = os.path.join(ARTIFACTS_DIR, "topic_cols.json")
 CONFIG = os.path.join(ARTIFACTS_DIR, "config.json")
 
+# CSV data
+SCIENTIFIC_CONTENT_CSV = os.path.join(BASE_DIR, "scientific_content.csv")
+HCP_INTERACTION_CSV = os.path.join(BASE_DIR, "hcp_interaction_data.csv")
 
 # ---------------- Load Artifacts ----------------
 @st.cache_resource
