@@ -31,7 +31,6 @@ It represents a **complete end-to-end pipeline** — from **data ingestion, prep
 - [Repository Structure](#repository-structure)
 - [Deployment Guide](#deployment-guide)
 - [License](#license)
-- [Author](#author)
 
 ---
 
@@ -84,10 +83,10 @@ The resulting topic embeddings represent the **semantic context** of scientific 
 
 ### 2. Synthetic Real-World Data  
 To simulate pharmaceutical engagement data, synthetic datasets were created for:
-- `hcp_master.csv`: HCP demographics, specialty, and prescribing behavior  
-- `patients_with_hcp.csv`: Patient–HCP linkages  
-- `campaigns_with_content.csv`: Content metadata and delivery channels  
-- `hcp_interaction_data.csv`: Engagement histories used for model training  
+- [`hcp_master.csv`](#data/hcp_master.csv): HCP demographics, specialty, and prescribing behavior  
+- [`patients_with_hcp.csv`](#data/patients_with_hcp.csv): Patient–HCP linkages  
+- [`campaigns_with_content.csv`](#campaigns_with_content.csv): Content metadata and delivery channels  
+- [`hcp_interaction_data.csv`](#data/hcp_interaction_data.csv): Engagement histories used for model training  
 
 These synthetic datasets replicate the **multi-dimensional nature of Real-World Evidence (RWE)** used in healthcare analytics.
 
