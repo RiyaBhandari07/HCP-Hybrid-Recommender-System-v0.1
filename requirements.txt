@@ -7,10 +7,8 @@ scipy==1.11.0
 # Deep Learning
 tensorflow-cpu==2.20.0          
 
-
 # NLP & Topic Modeling
 spacy==3.8.7
-en_core_web_sm==3.8.0            # SpaCy small English model
 gensim==4.3.1
 nltk==3.9.0
 
@@ -32,5 +30,6 @@ python-dateutil==2.8.2
 pytz==2024.2
 
 pytz>=2024.2
+
 
 
