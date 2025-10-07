@@ -14,15 +14,6 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import CountVectorizer
 import plotly.express as px
-import spacy
-SPACY_MODEL_DIR = os.path.join(os.getcwd(), "spacy_model")
-
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    import spacy.cli
-    spacy.cli.download("en_core_web_sm", target=SPACY_MODEL_DIR)
-    nlp = spacy.load(os.path.join(SPACY_MODEL_DIR, "en_core_web_sm"))
     
 # ---------------- Page Config ---------------------
 st.set_page_config(page_title="HCP Content Recommender", layout="wide")
