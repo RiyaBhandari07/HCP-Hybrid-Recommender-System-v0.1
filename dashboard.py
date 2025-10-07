@@ -72,14 +72,13 @@ HCP_LIST = os.path.join(ARTIFACTS_DIR, "hcp_list.json")
 TOPIC_COLS = os.path.join(ARTIFACTS_DIR, "topic_cols.json")
 CONFIG = os.path.join(ARTIFACTS_DIR, "config.json")
 
-# CSV data
-SCIENTIFIC_CONTENT_CSV  = os.path.join(ARTIFACTS_DIR, "scientific_content.csv")
-HCP_INTERACTION_CSV  = os.path.join(ARTIFACTS_DIR, "hcp_interaction_data.csv")
-
+# -------------------------------
+# Load CSV Data
+# ------------------------------
 @st.cache_data
 def load_data():
-    scientific_content_df = SCIENTIFIC_CONTENT_CSV
-    hcp_interaction_df = HCP_INTERACTION_CSV
+    scientific_content_df = pd.read_csv(os.path.join("artifacts", "scientific_content.csv"))
+    hcp_interaction_df = pd.read_csv(os.path.join("artifacts", "hcp_interaction_data.csv"))
     return scientific_content_df, hcp_interaction_df
 
 scientific_content_df, hcp_interaction_df = load_data()
