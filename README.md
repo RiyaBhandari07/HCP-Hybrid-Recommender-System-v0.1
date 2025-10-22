@@ -181,7 +181,7 @@ The Streamlit-based dashboard provides an interactive interface for exploring mo
 
 ## Deployment Guide
 
-The Streamlit dashboard is deployed on **Streamlit Cloud**.  
+The Next Best Action Recommender dashboard is deployed on **Streamlit Cloud**.  
 For local execution:
 
 ```bash
