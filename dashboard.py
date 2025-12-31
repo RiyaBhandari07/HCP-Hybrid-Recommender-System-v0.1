@@ -46,7 +46,7 @@ st.markdown(
     </style>
 
     <div class="header-banner">
-        <h1>🏥 RWE Analytics | Next Best Action Recommender</h1>
+        <h1>🏥 Next Best Action Recommender</h1>
         <p>Personalized Content & Channel Recommendations for Healthcare Professionals</p>
     </div>
     """,
@@ -358,10 +358,10 @@ else:
         top_channel_score = kpi.get("top_channel_score", None)
         top_n_count = kpi.get("top_n_count", None)
 
-        kcol1.metric("💠 Avg Pred Engagement", f"{avg_engagement:.3f}" if avg_engagement is not None else "N/A")
+        kcol1.metric("💠 Avg Predicted Engagement", f"{avg_engagement:.3f}" if avg_engagement is not None else "N/A")
         kcol2.metric("📈 High Engagement % (>0.5)", f"{high_eng_pct:.2f}%" if high_eng_pct is not None else "N/A")
         kcol3.metric("📊 Top Channel Score", f"{top_channel_score:.3f}" if top_channel_score is not None else "N/A")
-        kcol4.metric("📚 Top-N Count", f"{top_n_count:.3f}" if top_n_count is not None else "N/A")
+        kcol4.metric("📚 Article Count", f"{top_n_count:.3f}" if top_n_count is not None else "N/A")
 
         st.markdown("<hr>", unsafe_allow_html=True)
 
