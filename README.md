@@ -182,7 +182,7 @@ The Streamlit-based dashboard provides an interactive interface for exploring mo
 ## Deployment Guide
 
 The Next Best Action Recommender dashboard is deployed on **Streamlit Cloud**.  
-For local execution:
+For local execution instruction:
 
 ```bash
 git clone https://github.com/<username>/HCP-Hybrid-Recommender-System.git
