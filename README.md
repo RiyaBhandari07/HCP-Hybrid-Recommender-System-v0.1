@@ -39,7 +39,7 @@ It represents a **complete end-to-end pipeline** — from **data ingestion, prep
 Pharmaceutical companies engage with thousands of HCPs across multiple channels — email campaigns, webinars, and scientific content distribution.  
 Determining the **most relevant content**, **optimal delivery channel**, and **right timing** for each HCP is a persistent challenge.
 
-This project aims to:
+This project aims to:-
 
 - Build a **hybrid recommender system** that integrates behavioral, textual, and contextual data.
 - Predict the **Next Best Content (NBC)** and **Next Best Channel (NBC)** to drive meaningful engagement.
