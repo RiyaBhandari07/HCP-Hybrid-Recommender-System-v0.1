@@ -6,8 +6,6 @@
 [![spaCy 3.8.7](https://img.shields.io/badge/spaCy-3.8.7-brightgreen?logo=spacy&logoColor=white)](https://spacy.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**[Launch Streamlit Dashboard → RWE Analytics | Next Best Action Recommender System](https://hcp-hybrid-recommender-system-v01-dashboard.streamlit.app/)**  
-
 ---
 
 ## Project Overview
@@ -17,6 +15,7 @@ The **HCP Hybrid Recommender System (v0.1)** is a **data-driven healthcare marke
 The system integrates **Deep Learning (LSTM)**, **Topic Modeling (NLP)**, and **Collaborative + Content-Based Filtering** to generate **personalized, context-aware recommendations**.  
 It represents a **complete end-to-end pipeline** — from **data ingestion, preprocessing, and model training** to **deployment through a Streamlit dashboard**.
 
+**[Launch Streamlit Dashboard → RWE Analytics | Next Best Action Recommender System](https://hcp-hybrid-recommender-system-v01-dashboard.streamlit.app/)**  
 ---
 
 ## Table of Contents
