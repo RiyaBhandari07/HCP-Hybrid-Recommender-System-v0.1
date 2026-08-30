@@ -195,7 +195,7 @@ streamlit run app.py
 
 Distributed under the **MIT License**. See [LICENSE](LICENSE) for more information.
 
-# Author
+## Author
 ### Riya Bhandari | Aspiring Data Scientist 
 
 ⭐ If you found this project helpful, consider giving it a Star!
